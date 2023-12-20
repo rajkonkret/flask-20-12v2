@@ -28,6 +28,7 @@ class CantorOffer:
         self.currencies.append(Currency('USD', 'Dollar', 'usd.png'))
         self.currencies.append(Currency('EUR', 'Euro', 'euro.png'))
         self.currencies.append(Currency('JPY', 'Yen', 'yen.png'))
+        self.currencies.append(Currency('GBP', 'Pound', 'pound.png'))
 
     def get_by_code(self, code):
         for currency in self.currencies:
