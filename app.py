@@ -29,6 +29,12 @@ class CantorOffer:
         self.currencies.append(Currency('EUR', 'Euro', 'euro.png'))
         self.currencies.append(Currency('JPY', 'Yen', 'yen.png'))
 
+    def get_by_code(self, code):
+        for currency in self.currencies:
+            if currency.code == code:
+                return currency
+        return Currency('unknown', 'unknown', 'flag_pirat.png')
+
 
 @app.route('/')
 def index():
@@ -37,8 +43,11 @@ def index():
 
 @app.route("/exchange", methods=['GET', 'POST'])
 def exchange():
+    offer = CantorOffer()
+    offer.load_offer()
+
     if request.method == 'GET':
-        return render_template('exchange.html')
+        return render_template('exchange.html', offer=offer)
     else:
         currency = 'EUR'
         if 'currency' in request.form:
