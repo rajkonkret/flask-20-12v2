@@ -9,8 +9,12 @@
     <h1>You selected {{ currency }} and amount {{ amount }}</h1>
     {% if currency=='EUR' %}
             <img src="{{ url_for('static', filename='currencies/euro.png') }}">
+    {% elif currency == 'USD' %}
+         <img src="{{ url_for('static', filename='currencies/usd.png') }}">
+    {% elif currency == 'JPY' %}
+        <img src="{{ url_for('static', filename='currencies/yen.png') }}">
     {% else %}
-            <img src="{{ url_for('static', filename='flag_pirate.png') }}">
+        <img src="{{ url_for('static', filename='flag_pirate.png') }}">
     {% endif %}
 
 </body>

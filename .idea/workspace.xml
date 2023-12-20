@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc8d2c9-7aba-49ea-847f-cee22c352edb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/flask-20-12v2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/currencies/euro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/currencies/usd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/currencies/yen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/flag_pirate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/exchange.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/exchange_results.html" afterDir="false" />
+    <list default="true" id="0dc8d2c9-7aba-49ea-847f-cee22c352edb" name="Changes" comment="updatee exchange.html">
+      <change afterPath="$PROJECT_DIR$/info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/exchange_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/exchange_results.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -49,6 +40,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "Python.app.executor": "Run",
+    "Python.info.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -61,7 +53,7 @@
       <recent name="C:\Users\CSComarch\PycharmProjects\flask-20-v2\flask-20-12v2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.info">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="flask-20-12v2" />
       <option name="ENV_FILES" value="" />
@@ -84,8 +76,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="info" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="flask-20-12v2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/info.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.info" />
         <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
@@ -106,6 +121,28 @@
       <option name="presentableId" value="Default" />
       <updated>1703070685410</updated>
     </task>
+    <task id="LOCAL-00001" summary="add render_template">
+      <option name="closed" value="true" />
+      <created>1703073312377</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703073312377</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updatee exchange.html">
+      <option name="closed" value="true" />
+      <created>1703073575169</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703073575169</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add render_template" />
+    <MESSAGE value="updatee exchange.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="updatee exchange.html" />
   </component>
 </project>
