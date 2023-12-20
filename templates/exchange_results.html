@@ -8,7 +8,7 @@
 <body>
     <h1>You selected {{ currency }} and amount {{ amount }}</h1>
     {% if currency_info.code != 'unknown' %}
-            <img src="{{ url_for('static', filename='currencies/'+ currency_info.flag) }}">
+            <img src="{{ url_for('static', filename='currencies/' + currency_info.flag) }}">
     {% else %}
         <p>This currency is unknown for us - sorry</p>
     {% endif %}
