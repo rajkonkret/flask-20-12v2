@@ -41,7 +41,8 @@ class CantorOffer:
 
 @app.route('/')
 def index():
-    return "To jest index"
+    # return "To jest index"
+    return render_template("index.html")
 
 
 @app.route("/exchange", methods=['GET', 'POST'])
@@ -69,6 +70,9 @@ def exchange():
 
         return render_template('exchange_results.html', currency=currency, amount=amount,
                                currency_info=offer.get_by_code(currency))
+
+
+
 
 
 if __name__ == '__main__':
